@@ -739,9 +739,9 @@ int sigar_cpu_mhz_from_model(char *model)
 
 #if !defined(WIN32) && !defined(NETWARE)
 #include <netdb.h>
-#include <tirpc/rpc/rpc.h>
-#include <tirpc/rpc/pmap_prot.h>
-#include <tirpc/rpc/pmap_clnt.h>
+#include <rpc/rpc.h>
+#include <rpc/pmap_prot.h>
+#include <rpc/pmap_clnt.h>
 #ifdef SIGAR_HPUX
 #include <nfs/nfs.h>
 #endif

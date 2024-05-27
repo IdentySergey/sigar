@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(sigar C)
 cmake_policy(SET CMP0053 NEW)
 
+include(/usr/include/tirpc)
 include(CheckIncludeFiles)
 include(CheckFunctionExists)
 include(CheckTypeSize)
